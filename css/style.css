@@ -1,4 +1,9 @@
 @import "./blocks.style.css/header.css";
+@import "./blocks.style.css/title.css";
+@import "./blocks.style.css/about.css";
+@import "./blocks.style.css/comments.css";
+@import "./blocks.style.css/feedback.css";
+@import "./blocks.style.css/footer.css";
 .container {
   width: 1440px;
 }

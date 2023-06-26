@@ -1,0 +1,6 @@
+.title {
+  background: url(/img/Background1.png), lightgray 50%;
+  height: 858px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
