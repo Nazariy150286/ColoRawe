@@ -3,3 +3,6 @@ header {
   margin: 0;
   width: 1440px;
 }
+.header_block {
+  display: flex;
+}

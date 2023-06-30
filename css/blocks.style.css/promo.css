@@ -1,5 +1,6 @@
-.title {
+.promo {
   background: url(/img/Background1.png), lightgray 50%;
+  width: 1440px;
   height: 858px;
   background-repeat: no-repeat;
   background-size: cover;

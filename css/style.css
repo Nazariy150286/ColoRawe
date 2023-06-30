@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
 @import "./blocks.style.css/header.css";
-@import "./blocks.style.css/title.css";
-@import "./blocks.style.css/about.css";
+@import "./blocks.style.css/promo.css";
+@import "./blocks.style.css/adventures.css";
 @import "./blocks.style.css/comments.css";
-@import "./blocks.style.css/feedback.css";
+@import "./blocks.style.css/order.css";
 @import "./blocks.style.css/footer.css";
 .container {
   width: 1440px;

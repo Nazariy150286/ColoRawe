@@ -1,6 +1,7 @@
-.about {
+.adventures {
   background-image: url(/img/Background2.png);
   height: 606px;
+  width: 1440px;
   background-repeat: no-repeat;
   background-size: cover;
 }

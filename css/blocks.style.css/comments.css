@@ -3,4 +3,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 520px;
+  width: 1440px;
+}
+.background {
+  background-image: url(/img/flowers.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 340px;
+  height: 380px;
 }
