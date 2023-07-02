@@ -6,3 +6,31 @@ header {
 .header_block {
   display: flex;
 }
+.nav_list {
+  display: flex;
+  list-style-type: none;
+}
+.nav_list a {
+  color: #c7c7c7;
+  font-size: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  text-decoration: none;
+}
+.nav_list a:hover {
+  color: #fff;
+  font-size: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav_list li {
+  margin: 30px 29px 33px 29px;
+}
+.nav_item_lang {
+  gap: 73px;
+}
