@@ -1,15 +1,17 @@
 header {
   background: #012d63;
-  margin: 0;
-  width: 1440px;
+  padding: 33px;
 }
 .header_block {
   display: flex;
+  justify-content: center;
 }
 .nav_list {
   display: flex;
   list-style-type: none;
+  gap: 29px;
 }
+
 .nav_list a {
   color: #c7c7c7;
   font-size: 24px;
@@ -28,9 +30,28 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-.nav_list li {
-  margin: 30px 29px 33px 29px;
+.header_language a {
+  color: #dcdcdc;
+  font-size: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration: none;
 }
-.nav_item_lang {
-  gap: 73px;
+.header_language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 73px;
+  gap: 15px;
+}
+
+.header_language a:hover {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
