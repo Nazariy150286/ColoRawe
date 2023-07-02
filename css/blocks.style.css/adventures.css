@@ -1,5 +1,5 @@
 .adventures {
-  background-image: url(/img/Background2.png);
+  background-image: url(../../img/Background2.png);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,8 @@
   border: 3px solid #8e32c6;
   margin: 0;
   padding: 0;
+  height: 396px;
+  align-items: center;
 }
 
 .adventures_title {
@@ -35,6 +37,6 @@
 .adventures_item:nth-child(2) {
   flex-direction: column-reverse;
 }
-.adventures_item::last-child {
+.adventures_item:last-child {
   border-right: none;
 }

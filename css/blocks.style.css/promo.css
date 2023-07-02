@@ -1,5 +1,5 @@
 .promo {
-  background: url(/img/Background1.png), lightgray 50%;
+  background: url(../../img/Background1.png), lightgray 50%;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 94px 0 183px 0;
