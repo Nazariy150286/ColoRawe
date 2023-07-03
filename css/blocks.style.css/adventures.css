@@ -3,11 +3,11 @@
 
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 105px 165px;
+  padding: 105px 0;
 }
 .adventures_list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style-type: none;
   border: 3px solid #8e32c6;
   margin: 0;

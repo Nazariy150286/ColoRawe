@@ -1,5 +1,66 @@
 .order {
-  background-image: url(/img/Background4.png);
+  background-image: url(../../img/Background4.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.order_title {
+  color: #fff;
+  font-size: 48px;
+  font-family: Playfair Display;
+
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.order_text {
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+  color: #959595;
+
+  font-weight: 400;
+  line-height: normal;
+}
+.order_email {
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+  color: #959595;
+  font-size: 24px;
+
+  font-weight: 400;
+  line-height: normal;
+}
+.order_btn {
+  color: #fff;
+  font-size: 24px;
+
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 16px;
+  background: #8e32c6;
+
+  width: 248px;
+  height: 68px;
+  border: none;
+}
+.input_btn {
+  color: #8d8d8d;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_h4 {
+  color: #fff;
+  font-size: 24px;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

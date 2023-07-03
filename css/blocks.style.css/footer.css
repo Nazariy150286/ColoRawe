@@ -1,3 +1,17 @@
 .footer {
   background: #021635;
 }
+.footer_list {
+  list-style-type: none;
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_list a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -8,7 +8,7 @@
   color: #fff;
   font-size: 48px;
   font-family: PT Serif;
-  font-style: normal;
+
   font-weight: 400;
   line-height: normal;
   margin: 0;
@@ -17,7 +17,7 @@
   color: #fff;
   font-size: 144px;
   font-family: Playfair Display;
-  font-style: normal;
+
   font-weight: 400;
   line-height: normal;
 }
@@ -25,23 +25,20 @@
   color: #fff;
   font-size: 72px;
   font-family: Playfair Display;
-  font-style: normal;
+
   font-weight: 400;
   line-height: normal;
 }
 .promo_description {
   color: #fff;
   font-size: 18px;
-  font-family: Roboto;
-  font-style: normal;
+
   font-weight: 400;
   line-height: normal;
 }
 .promo_btn {
   color: #fff;
-  font-size: 24px;
-  font-family: Roboto;
-  font-style: normal;
+
   font-weight: 400;
   line-height: normal;
 }
