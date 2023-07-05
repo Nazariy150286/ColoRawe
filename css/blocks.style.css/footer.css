@@ -52,7 +52,6 @@
 .footer_underline {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
 }
 .footer_table {
   padding-bottom: 20px;
@@ -61,4 +60,5 @@
   display: flex;
   flex-direction: column;
   gap: 7px;
+  padding-top: 24px;
 }
