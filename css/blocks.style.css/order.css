@@ -2,15 +2,19 @@
   background-image: url(../../img/Background4.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 37px;
 }
 .order_title {
   color: #fff;
   font-size: 48px;
   font-family: Playfair Display;
+  padding: 20px 33px;
 
   font-weight: 400;
   line-height: normal;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 .order_text {
   border-radius: 50px;
@@ -20,6 +24,8 @@
 
   font-weight: 400;
   line-height: normal;
+  width: 580px;
+  height: 50px;
 }
 .order_email {
   border-radius: 50px;
@@ -30,6 +36,8 @@
 
   font-weight: 400;
   line-height: normal;
+  width: 690px;
+  height: 60px;
 }
 .order_btn {
   color: #fff;
@@ -50,17 +58,35 @@
   font-weight: 400;
   line-height: normal;
 }
-.footer_h5 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
+
+.order_email {
+  width: 690px;
+  height: 60px;
+  border-radius: 50px;
+  background: #fff;
+  padding: 13px 78px 13px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer_h4 {
-  color: #fff;
-  font-size: 24px;
-  font-family: PT Serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.order_form input {
+  border-radius: 50px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 11px 0 11px 25px;
+}
+.order_form input[type="button"] {
+  cursor: pointer;
+}
+.order_btn {
+  display: block;
+  margin: 0 auto;
+}
+.order_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  padding-bottom: 19px;
 }

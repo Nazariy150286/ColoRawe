@@ -95,8 +95,10 @@
                   <div class="item-box_element">
                     <img class="pic" src="./img/human1.png" alt="user-photo" />
                   </div>
-                  <h5 class="comments_name">John Teylor</h5>
-                  <h6 class="with_us">With us from 2018</h6>
+                  <div class="item-box_elements">
+                    <h4 class="comments_name">John Teylor</h4>
+                    <h5 class="with_us">With us from 2018</h5>
+                  </div>
                 </div>
               </li>
               <li class="comments_item">
@@ -111,8 +113,10 @@
                   <div class="item-box_element">
                     <img class="pic" src="./img/human2.png" alt="user-photo" />
                   </div>
-                  <h5 class="comments_name">Elizabeth Garsia</h5>
-                  <h6 class="with_us">With us from 2020</h6>
+                  <div class="item-box_elements">
+                    <h4 class="comments_name">Elizabeth Garsia</h4>
+                    <h5 class="with_us">With us from 2020</h5>
+                  </div>
                 </div>
               </li>
               <li class="comments_item">
@@ -127,8 +131,10 @@
                   <div class="item-box_element">
                     <img class="pic" src="./img/human3.png" alt="user-photo" />
                   </div>
-                  <h5 class="comments_name">Tom Maquare</h5>
-                  <h6 class="with_us">With us from 2019</h6>
+                  <div class="item-box_elements">
+                    <h4 class="comments_name">Tom Maquare</h4>
+                    <h5 class="with_us">With us from 2019</h5>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -139,15 +145,11 @@
       <section class="order">
         <div class="container">
           <h2 class="order_title">Order</h2>
-          <form>
-            <input
-              class="order_email"
-              placeholder="Write your email"
-              type="email"
-            />
-            <button class="input_btn">Confirm</button>
-          </form>
-          <form>
+          <form class="order_form">
+            <div class="order_email">
+              <input placeholder="Write your email" type="email" />
+              <input type="button" class="input_btn" value="Confirm" />
+            </div>
             <input class="order_text" placeholder="Your Country" type="text" />
             <input class="order_text" placeholder="Your City" type="text" />
             <input class="order_text" placeholder="Your Adress" type="text" />
@@ -159,31 +161,31 @@
     <footer class="footer">
       <div class="container">
         <div class="footer_block">
-          <ul class="footer_list">
-            <li class="footer-item">Have a question?</li>
-            <li class="footer-item">Have a proposal for cooperation?</li>
-            <li class="footer-item">Advertising questions?</li>
-          </ul>
-          <ul class="footer_list">
-            <li class="footer-item">
-              <a href="#">ColoRawe_support@gmail.com</a>
-            </li>
-            <li class="footer-item">
-              <a href="#">ColoRawe_Cooperation@gmail.com</a>
-            </li>
-            <li class="footer-item">
-              <a href="#">ColoRawe_Advertising@gmail.com</a>
-            </li>
-          </ul>
+          <table class="footer_table">
+            <tr class="footer_line">
+              <td class="footer_cell">Have a question?</td>
+              <td class="footer_cell_answer">ColoRawe_support@gmail.com</td>
+            </tr>
+            <tr class="footer_line">
+              <td class="footer_cell">Have a proposal for cooperation?</td>
+              <td class="footer_cell_answer">ColoRawe_Cooperation@gmail.com</td>
+            </tr>
+            <tr class="footer_line">
+              <td class="footer_cell">Advertising questions?</td>
+              <td class="footer_cell_answer">ColoRawe_Advertising@gmail.com</td>
+            </tr>
+          </table>
         </div>
         <hr />
-        <div class="footer_text">
-          <h5 class="footer_h5">2022 ColoRawe @All rights reserved</h5>
-          <h5 class="footer_h5">United States</h5>
-        </div>
-        <div class="footer_icon">
-          <img class="footer_pic" src="./icons/icon3.svg" alt="Nike" />
-          <h4 class="footer_h4">С&R</h4>
+        <div class="footer_underline">
+          <div class="footer_text">
+            <h5 class="footer_h5">2022 ColoRawe @All rights reserved</h5>
+            <h5 class="footer_h5">United States</h5>
+          </div>
+          <div class="footer_icon">
+            <img class="footer_pic" src="./icons/icon3.svg" alt="Nike" />
+            <h4 class="footer_h4">С&R</h4>
+          </div>
         </div>
       </div>
     </footer>

@@ -2,12 +2,12 @@
   background-image: url(../../img/Background3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 25px 0 124px;
 }
 .comments_bg {
   background-image: url(../../img/flowers.png);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left bottom;
+  padding: 25px 0 115px;
 }
 .item-box_element {
   object-fit: cover;
@@ -40,8 +40,10 @@ span {
 .comments_list {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0;
+  margin-top: 24px;
+  gap: 90px;
 }
 .comments_item:nth-child(1) {
   border-radius: 15px;
@@ -76,19 +78,19 @@ span {
   );
   box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
-.comments_item-box h5,
-h6 {
+.comments_item-box h4,
+h5 {
   margin: 0;
   display: flex;
 }
-.comments_item-box h5 {
+.comments_item-box h4 {
   color: #fff;
   font-size: 14px;
 
   font-weight: 400;
   line-height: normal;
 }
-.comments_item-box h6 {
+.comments_item-box h5 {
   color: #d8d8d8;
   font-size: 12px;
 
@@ -97,8 +99,8 @@ h6 {
 }
 .comments_item-box {
   display: flex;
-  justify-content: space-between;
-  padding: 15px;
+  justify-content: flex-start;
+  padding: 47px 13px 29px;
 }
 .comments_item {
   width: 255px;
