@@ -1,7 +1,5 @@
 .promo {
-  background: url(../../img/Background1.png), lightgray 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../../img/Background1.png) 50% center/cover no-repeat;
   padding: 94px 0 183px 0;
 }
 .promo_h2 {
@@ -52,20 +50,11 @@
 .promo_logo {
   display: list-item;
 }
-.promo_pic {
-  margin-left: 170px;
-}
-.promo_h2 {
-  margin-left: 195px;
-}
+
 .promo_title {
-  display: flex;
-  justify-content: center;
   margin: 0;
 }
-.promo_block {
-  margin-left: 164px;
-}
+
 .promo_block h3,
 p {
   display: flex;
@@ -73,7 +62,4 @@ p {
   margin: 0;
   flex-direction: column;
   align-items: flex-start;
-}
-.promo_btn {
-  margin-top: 41px;
 }

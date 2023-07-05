@@ -5,11 +5,9 @@
   padding: 25px 0 124px;
 }
 .comments_bg {
-  background-image: url(/img/flowers.png);
+  background-image: url(../../img/flowers.png);
   background-repeat: no-repeat;
   background-position: left;
-  width: 340px;
-  height: 380px;
 }
 .item-box_element {
   object-fit: cover;
@@ -27,6 +25,7 @@
 .comments_description {
   color: #fff;
   font-size: 24px;
+  padding: 15px;
 
   font-weight: 400;
   line-height: normal;
@@ -34,15 +33,15 @@
 span {
   color: #d8d8d8;
   font-size: 14px;
-
   font-weight: 400;
   line-height: normal;
+  padding: 15px;
 }
 .comments_list {
   list-style-type: none;
   display: flex;
-  justify-content: center;
-  gap: 93px;
+  justify-content: space-around;
+  padding: 0;
 }
 .comments_item:nth-child(1) {
   border-radius: 15px;
@@ -53,7 +52,7 @@ span {
     #9a76f9 62.5%,
     #cc5ec2 100%
   );
-  box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7b54b2;
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 .comments_item:nth-child(2) {
   border-radius: 15px;
@@ -64,7 +63,7 @@ span {
     #ce3aff 62.84%,
     #8961ff 100%
   );
-  box-shadow: 0px 30px 0px -13px #61337c, 0px 14px 0px -5px #9159b1;
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
 .comments_item:nth-child(3) {
   border-radius: 15px;
@@ -75,7 +74,7 @@ span {
     #ff8381 63.29%,
     #ff5489 100%
   );
-  box-shadow: 0px 30px 0px -13px #732f26, 0px 14px 0px -5px #b95a4c;
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
 .comments_item-box h5,
 h6 {
@@ -99,6 +98,7 @@ h6 {
 .comments_item-box {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 .comments_item {
   width: 255px;
