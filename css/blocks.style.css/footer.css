@@ -5,7 +5,7 @@
   height: 1px;
   background: #9b9b9b;
 }
-.footer_h5 {
+.footer_inf {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -27,9 +27,11 @@
   font-weight: 400;
   line-height: normal;
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.footer_cell_answer {
-  color: #fff;
+.footer_mail {
   font-size: 24px;
   font-weight: 400;
   line-height: normal;
@@ -37,6 +39,9 @@
   display: flex;
   justify-content: flex-end;
   padding-top: 10px;
+}
+.footer_mail a {
+  color: #fff;
 }
 .footer_block {
   padding-top: 45px;
@@ -52,6 +57,7 @@
 .footer_underline {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 37px;
 }
 .footer_table {
   padding-bottom: 20px;
@@ -61,4 +67,9 @@
   flex-direction: column;
   gap: 7px;
   padding-top: 24px;
+}
+.footer_table-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ColoRawe</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
@@ -26,7 +30,7 @@
             </ul>
           </nav>
           <div class="header_language">
-            <a href="./translated.html">Укр</a>
+            <a href="./translated.html">Ua</a>
             <a href="./index.html">Eng</a>
           </div>
         </div>
@@ -84,9 +88,7 @@
             <ul class="comments_list">
               <li class="comments_item">
                 <p class="comments_description">
-                  Sneakers are very <br />
-                  comfortable and well <br />
-                  painted, nothing has <br />
+                  Sneakers are very comfortable and well painted, nothing has
                   worn off in a year.
                 </p>
                 <span class="comments_date">25.11</span>
@@ -162,25 +164,37 @@
       <div class="container">
         <div class="footer_block">
           <table class="footer_table">
-            <tr class="footer_line">
-              <td class="footer_cell">Have a question?</td>
-              <td class="footer_cell_answer">ColoRawe_support@gmail.com</td>
-            </tr>
-            <tr class="footer_line">
-              <td class="footer_cell">Have a proposal for cooperation?</td>
-              <td class="footer_cell_answer">ColoRawe_Cooperation@gmail.com</td>
-            </tr>
-            <tr class="footer_line">
-              <td class="footer_cell">Advertising questions?</td>
-              <td class="footer_cell_answer">ColoRawe_Advertising@gmail.com</td>
-            </tr>
+            <tbody class="footer_table-element">
+              <tr class="footer_line">
+                <th class="footer_cell">Have a question?</th>
+                <th class="footer_cell">Have a proposal for cooperation?</th>
+                <th class="footer_cell">Advertising questions?</th>
+              </tr>
+              <tr class="footer_line">
+                <td class="footer_mail">
+                  <a href="mailto:ColoRawe_support@gmail.com"
+                    >ColoRawe_support@gmail.com</a
+                  >
+                </td>
+                <td class="footer_mail">
+                  <a href="mailto:ColoRawe_Cooperation@gmail.com"
+                    >ColoRawe_Cooperation@gmail.com</a
+                  >
+                </td>
+                <td class="footer_mail">
+                  <a href="mailto:ColoRawe_Advertising@gmail.com"
+                    >ColoRawe_Advertising@gmail.com</a
+                  >
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <hr />
         <div class="footer_underline">
           <div class="footer_text">
-            <h5 class="footer_h5">2022 ColoRawe @All rights reserved</h5>
-            <h5 class="footer_h5">United States</h5>
+            <span class="footer_inf">2022 ColoRawe @All rights reserved</span>
+            <span class="footer_inf">United States</span>
           </div>
           <div class="footer_icon">
             <img class="footer_pic" src="./icons/icon3.svg" alt="Nike" />
