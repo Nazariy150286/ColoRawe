@@ -51,3 +51,18 @@ header {
   font-weight: 300;
   line-height: normal;
 }
+.nav_list {
+  transition: ease-in-out;
+  perspective-origin: 30px;
+}
+.nav_list :hover {
+  transform: scale(0.9);
+}
+.header_language {
+  transition: ease-in-out;
+  perspective-origin: 30px;
+}
+.header_language a:hover {
+  transform: scale(0.9);
+  font-weight: 400;
+}

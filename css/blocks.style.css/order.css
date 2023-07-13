@@ -90,3 +90,16 @@
   gap: 19px;
   padding-bottom: 19px;
 }
+.order_form:hover {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 5;
+}
+.order_btn:hover {
+  animation-name: tada;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  cursor: pointer;
+}
