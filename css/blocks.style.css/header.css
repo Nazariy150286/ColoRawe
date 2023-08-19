@@ -1,6 +1,9 @@
 header {
   background: #012d63;
   padding: 16px 14px;
+  position: fixed;
+  width: 100%;
+  z-index: 5000;
 }
 .header_block {
   display: flex;

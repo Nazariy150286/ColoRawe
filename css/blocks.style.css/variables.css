@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -9,4 +12,11 @@ hr {
 body {
   font-family: Roboto;
   font-style: normal;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background: linear-gradient(#012d63, #012d63);
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#8e32c6, purple, #8e32c6);
 }
