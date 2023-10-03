@@ -1,0 +1,44 @@
+.adventures {
+  background-image: url(../../img/Background2.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 0;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 3px solid #8e32c6;
+    margin: 0;
+    padding: 0;
+    height: 396px;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__item {
+    flex-direction: column;
+    border-right: 1px solid #fff;
+    display: flex;
+    height: 346px;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+
+  &__item:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  &__item:last-child {
+    border-right: none;
+  }
+}

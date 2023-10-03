@@ -28,24 +28,28 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header_block">
-          <img class="header_logo" src="./icons/icon.svg" alt="Nike" />
-          <nav class="header_nav">
-            <ul class="nav_list">
-              <li class="nav_item"><a href="#promo">Main page</a></li>
-              <li class="nav_item"><a href="#adventures">Benefits</a></li>
-              <li class="nav_item"><a href="#reviews">Advantages</a></li>
-              <li class="nav_item"><a href="#reviews">Reviews</a></li>
-              <li class="nav_item"><a href="#contacts">Contacts</a></li>
-              <li class="nav_item"><a href="#order">Order</a></li>
+        <div class="header__block">
+          <img class="header__logo" src="./icons/icon.svg" alt="Nike" />
+          <nav class="header__nav">
+            <ul class="header__nav_list">
+              <li class="header__nav_item"><a href="#promo">Main page</a></li>
+              <li class="header__nav_item">
+                <a href="#adventures">Benefits</a>
+              </li>
+              <li class="header__nav_item">
+                <a href="#reviews">Advantages</a>
+              </li>
+              <li class="header__nav_item"><a href="#reviews">Reviews</a></li>
+              <li class="header__nav_item"><a href="#contacts">Contacts</a></li>
+              <li class="header__nav_item"><a href="#order">Order</a></li>
             </ul>
           </nav>
-          <div class="header_language">
+          <div class="header__language">
             <a href="./translated.html">Ua</a>
             <a href="./index.html">Eng</a>
           </div>
@@ -55,103 +59,119 @@
     <main>
       <section id="promo" class="promo">
         <div class="container">
-          <div class="promo_logo">
-            <img class="promo_pic" src="./icons/icon2.svg" alt="Nike" />
-            <h2 class="promo_h2">С&R</h2>
+          <div class="promo__logo">
+            <img class="promo__pic" src="./icons/icon2.svg" alt="Nike" />
+            <h2 class="promo__h2">С&R</h2>
           </div>
-          <h1 class="promo_title">ColoRawe</h1>
-          <div class="promo_block">
-            <h3 class="promo_h3">Your dream Nike</h3>
-            <p class="promo_description">
+          <h1 class="promo__title">ColoRawe</h1>
+          <div class="promo__block">
+            <h3 class="promo__h3">Your dream Nike</h3>
+            <p class="promo__description">
               On this site you can find custom Nike sneakers of your dreams.
               <br />
               The original company caт`t create such beautiful <br />
               sneakers as we do. <br />
               Good luck finding your way in the world of custom sneakers.
             </p>
-            <button class="promo_btn">Buy My Nike</button>
+            <button class="promo__btn">Buy My Nike</button>
           </div>
         </div>
       </section>
       <section id="adventures" class="adventures">
         <div class="container">
-          <ul class="adventures_list">
-            <li class="adventures_item">
-              <h3 class="adventures_title">Premium <br />Quality</h3>
-              <img class="adventures_pic" src="./img/stars.png" alt="Stars" />
+          <ul class="adventures__list">
+            <li class="adventures__item">
+              <h3 class="adventures__title">Premium <br />Quality</h3>
+              <img class="adventures__pic" src="./img/stars.png" alt="Stars" />
             </li>
 
-            <li class="adventures_item">
-              <h3 class="adventures_title">
+            <li class="adventures__item">
+              <h3 class="adventures__title">
                 Indelible <br />
                 paint
               </h3>
-              <img class="adventures_pic" src="./img/paints.png" alt="Paints" />
+              <img
+                class="adventures__pic"
+                src="./img/paints.png"
+                alt="Paints"
+              />
             </li>
 
-            <li class="adventures_item">
-              <h3 class="adventures_title">Fast <br />shipping</h3>
-              <img class="adventures_pic" src="./img/auto.png" alt="auto" />
+            <li class="adventures__item">
+              <h3 class="adventures__title">Fast <br />shipping</h3>
+              <img class="adventures__pic" src="./img/auto.png" alt="auto" />
             </li>
           </ul>
         </div>
       </section>
       <hr />
       <section id="reviews" class="comments">
-        <div class="comments_bg">
+        <div class="comments__bg">
           <div class="container">
-            <h2 class="comments_title">Reviews</h2>
-            <ul class="comments_list">
-              <li class="comments_item">
-                <p class="comments_description">
+            <h2 class="comments__title">Reviews</h2>
+            <ul class="comments__list">
+              <li class="comments__item">
+                <p class="comments__description">
                   Sneakers are very comfortable and well painted, nothing has
                   worn off in a year.
                 </p>
-                <span class="comments_date">25.11</span>
+                <span class="comments__date">25.11</span>
 
-                <div class="comments_item-box">
-                  <div class="item-box_element">
-                    <img class="pic" src="./img/human1.png" alt="user-photo" />
+                <div class="comments__item-box">
+                  <div class="comments__item-box_element">
+                    <img
+                      class="comments__pic"
+                      src="./img/human1.png"
+                      alt="user-photo"
+                    />
                   </div>
-                  <div class="item-box_elements">
-                    <h4 class="comments_name">John Teylor</h4>
-                    <h5 class="with_us">With us from 2018</h5>
+                  <div class="comments__item-box_elements">
+                    <h4 class="comments__name">John Teylor</h4>
+                    <h5 class="comments__with_us">With us from 2018</h5>
                   </div>
                 </div>
               </li>
-              <li class="comments_item">
-                <p class="comments_description">
+              <li class="comments__item">
+                <p class="comments__description">
                   I'm very happy with <br />
                   this color scheme. <br />
                   They match all my <br />
                   clothes.
                 </p>
-                <span class="comments_date">05.01</span>
-                <div class="comments_item-box">
-                  <div class="item-box_element">
-                    <img class="pic" src="./img/human2.png" alt="user-photo" />
+                <span class="comments__date">05.01</span>
+                <div class="comments__item-box">
+                  <div class="comments__comments__item-box_element">
+                    <img
+                      class="comments__pic"
+                      src="./img/human2.png"
+                      alt="user-photo"
+                    />
                   </div>
-                  <div class="item-box_elements">
-                    <h4 class="comments_name">Elizabeth Garsia</h4>
-                    <h5 class="with_us">With us from 2020</h5>
+                  <div class="comments__item-box_elements">
+                    <h4 class="comments__name">Elizabeth Garsia</h4>
+                    <h5 class="comments__with_us">With us from 2020</h5>
                   </div>
                 </div>
               </li>
-              <li class="comments_item">
-                <p class="comments_description">
+              <li class="comments__item">
+                <p class="comments__description">
                   Just right if you need <br />
                   to go to a party. <br />
                   I use them actively, <br />
                   the paint is super.
                 </p>
-                <span class="comments_date">18.06</span>
-                <div class="comments_item-box">
-                  <div class="item-box_element">
-                    <img class="pic" src="./img/human3.png" alt="user-photo" />
+                <span class="comments__date">18.06</span>
+                <div class="comments__item-box">
+                  <div class="comments__item-box_element">
+                    <img
+                      class="comments__pic"
+                      src="./img/human3.png"
+                      alt="user-photo"
+                    />
                   </div>
-                  <div class="item-box_elements">
-                    <h4 class="comments_name">Tom Maquare</h4>
-                    <h5 class="with_us">With us from 2019</h5>
+                  <div class="comments__item-box_elements">
+                    <h4 class="comments__name">Tom Maquare</h4>
+                    <h5 class="comments__with_us">With us from 2019</h5>
                   </div>
                 </div>
               </li>
@@ -162,42 +182,42 @@
       <hr />
       <section id="order" class="order">
         <div class="container">
-          <h2 class="order_title">Order</h2>
-          <form class="order_form">
-            <div class="order_email">
+          <h2 class="order__title">Order</h2>
+          <form class="order__form">
+            <div class="order__email">
               <input placeholder="Write your email" type="email" />
-              <input type="button" class="input_btn" value="Confirm" />
+              <input type="button" class="order__input_btn" value="Confirm" />
             </div>
-            <input class="order_text" placeholder="Your Country" type="text" />
-            <input class="order_text" placeholder="Your City" type="text" />
-            <input class="order_text" placeholder="Your Adress" type="text" />
+            <input class="order__text" placeholder="Your Country" type="text" />
+            <input class="order__text" placeholder="Your City" type="text" />
+            <input class="order__text" placeholder="Your Adress" type="text" />
           </form>
-          <button class="order_btn">Order my Nike</button>
+          <button class="order__btn">Order my Nike</button>
         </div>
       </section>
     </main>
     <footer id="contacts" class="footer">
       <div class="container">
-        <div class="footer_block">
-          <table class="footer_table">
-            <tbody class="footer_table-element">
-              <tr class="footer_line">
-                <th class="footer_cell">Have a question?</th>
-                <th class="footer_cell">Have a proposal for cooperation?</th>
-                <th class="footer_cell">Advertising questions?</th>
+        <div class="footer__block">
+          <table class="footer__table">
+            <tbody class="footer__table-element">
+              <tr class="footer__line">
+                <th class="footer__cell">Have a question?</th>
+                <th class="footer__cell">Have a proposal for cooperation?</th>
+                <th class="footer__cell">Advertising questions?</th>
               </tr>
-              <tr class="footer_line">
-                <td class="footer_mail">
+              <tr class="footer__line">
+                <td class="footer__mail">
                   <a href="mailto:ColoRawe_support@gmail.com"
                     >ColoRawe_support@gmail.com</a
                   >
                 </td>
-                <td class="footer_mail">
+                <td class="footer__mail">
                   <a href="mailto:ColoRawe_Cooperation@gmail.com"
                     >ColoRawe_Cooperation@gmail.com</a
                   >
                 </td>
-                <td class="footer_mail">
+                <td class="footer__mail">
                   <a href="mailto:ColoRawe_Advertising@gmail.com"
                     >ColoRawe_Advertising@gmail.com</a
                   >
@@ -207,14 +227,14 @@
           </table>
         </div>
         <hr />
-        <div class="footer_underline">
-          <div class="footer_text">
-            <span class="footer_inf">2022 ColoRawe @All rights reserved</span>
-            <span class="footer_inf">United States</span>
+        <div class="footer__underline">
+          <div class="footer__text">
+            <span class="footer__inf">2022 ColoRawe @All rights reserved</span>
+            <span class="footer__inf">United States</span>
           </div>
-          <div class="footer_icon">
-            <img class="footer_pic" src="./icons/icon3.svg" alt="Nike" />
-            <h4 class="footer_h4">С&R</h4>
+          <div class="footer__icon">
+            <img class="footer__pic" src="./icons/icon3.svg" alt="Nike" />
+            <h4 class="footer__h4">С&R</h4>
           </div>
         </div>
       </div>

@@ -1,14 +1,15 @@
 html {
   scroll-behavior: smooth;
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  hr {
+    background: #fff;
+    margin: 0;
+  }
 }
-.container {
-  width: 1140px;
-  margin: 0 auto;
-}
-hr {
-  background: #fff;
-  margin: 0;
-}
+
 body {
   font-family: Roboto;
   font-style: normal;
