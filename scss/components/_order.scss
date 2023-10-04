@@ -54,7 +54,6 @@
     border: none;
   }
   &__btn {
-    color: #8d8d8d;
     font-size: 28px;
     font-weight: 400;
     line-height: normal;
@@ -79,6 +78,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    input {
+      color: #8d8d8d;
+    }
   }
   &__form input {
     border-radius: 50px;
@@ -96,11 +98,11 @@
     align-items: center;
     gap: 19px;
     padding-bottom: 19px;
-    :hover {
-      animation-name: pulse;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: 5;
-    }
+  }
+  &__form:hover {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 5;
   }
 }
